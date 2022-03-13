@@ -25,6 +25,7 @@ namespace Scenes.floppy_burd.Scripts
 		#region Private Fields
 
 		private int _points;
+		private bool _switched = false;
 
 		#endregion
 
@@ -38,6 +39,7 @@ namespace Scenes.floppy_burd.Scripts
 		#region Constants
 
 		private const string HighScorePref = "BurdHighScore";
+		private const int FlappInverse = 0;
 
 		#endregion
 
@@ -66,6 +68,8 @@ namespace Scenes.floppy_burd.Scripts
 		{
 			if (Input.GetKeyDown(KeyCode.Escape))
 				Application.Quit();
+			if (Input.GetKeyDown(KeyCode.Tab) || (Input.touchCount == 5 && Input.GetTouch(4).phase == TouchPhase.Began))
+				SwitchLevel();
 		}
 
 		private void OnDestroy()
@@ -80,7 +84,8 @@ namespace Scenes.floppy_burd.Scripts
 		public static void EndGame()
 		{
 			UpdateHighScore();
-			SceneManager.LoadScene(0);
+			if (!_shared._switched)
+				SceneManager.LoadScene(1);
 		}
 
 		public static void AddPoint()
@@ -91,6 +96,12 @@ namespace Scenes.floppy_burd.Scripts
 		#endregion
 
 		#region Private Static Methods
+
+		private static void SwitchLevel()
+		{
+			SceneManager.LoadScene(FlappInverse);
+			_shared._switched = true;
+		}
 
 		private static void UpdateHighScore()
 		{

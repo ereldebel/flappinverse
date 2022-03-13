@@ -29,6 +29,7 @@ namespace Scenes.FlappInverse.Scripts
 
 		private float _nextSwapTime;
 		private int _points;
+		private bool _switched = false;
 
 		#endregion
 
@@ -42,6 +43,7 @@ namespace Scenes.FlappInverse.Scripts
 		#region Constants
 
 		private const string HighScorePref = "InverseHighScore";
+		private const int FloppyBurd = 1;
 
 		#endregion
 
@@ -71,6 +73,8 @@ namespace Scenes.FlappInverse.Scripts
 		{
 			if (Input.GetKeyDown(KeyCode.Escape))
 				Application.Quit();
+			if (Input.GetKeyDown(KeyCode.Tab) || (Input.touchCount == 5 && Input.GetTouch(4).phase == TouchPhase.Began))
+				SwitchLevel();
 			if (Time.time < _nextSwapTime - 1) return;
 			SwapBirdColors();
 			bg.flipY = !bg.flipY;
@@ -99,7 +103,8 @@ namespace Scenes.FlappInverse.Scripts
 		public static void EndGame()
 		{
 			UpdateHighScore();
-			SceneManager.LoadScene(0);
+			if (!_shared._switched)
+				SceneManager.LoadScene(0);
 		}
 
 		public static void AddPoint()
@@ -110,6 +115,12 @@ namespace Scenes.FlappInverse.Scripts
 		#endregion
 
 		#region Private Static Methods
+
+		private static void SwitchLevel()
+		{
+			SceneManager.LoadScene(FloppyBurd);
+			_shared._switched = true;
+		}
 
 		private static void UpdateHighScore()
 		{
