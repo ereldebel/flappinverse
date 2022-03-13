@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Game.unity
+    path: Assets/Scenes/FlappInverse/FlappInverse.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/floppy burd/floppy burd.unity
+    guid: 862eeb4973317ab42bd61df7ab8de681
   m_configObjects: {}
