@@ -1,4 +1,7 @@
 # FlappInverse
+<p align='center'>
+  <a href="https://ereldebel.itch.io/FlappInverse"><img src="https://leafo.net/igjc-presentation/itchio-logo.png" width=110/></a>
+</p>
 My take on Flappy Bird.
 
 The game was created by me as a warm up exrcise in the _Gaming Lab_ course as part of the _Bezalel Game Development and Design Minor_ of my _Computer Science B.Sc._ in _The Hebrew University, Jerusalem, Israel_.
