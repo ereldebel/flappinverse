@@ -1,5 +1,8 @@
 ![](https://github.com/ereldebel/FlappInverse/blob/master/Assets/Scenes/FlappInverse/Textures/Banner.png?raw=true)
 
+An inverted take on Flappy Bird.
+
+Keep the squares from touching the columns of their color while keeping an eye for the color switching of the squares.
 
 The game was created by me as a warm up exrcise in the _Gaming Lab_ course as part of the _Bezalel Game Development and Design Minor_ of my _Computer Science B.Sc._ in _The Hebrew University, Jerusalem, Israel_.
 
