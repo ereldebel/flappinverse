@@ -1,7 +1,14 @@
-# FlappInverse
+![](https://github.com/ereldebel/FlappInverse/blob/master/Assets/Scenes/FlappInverse/Textures/Banner.png?raw=true)
 
-<p align='center'>
-  <a href="https://ereldebel.itch.io/FlappInverse"><img src=https://user-images.githubusercontent.com/63117010/162798475-edb746f8-a607-4d98-8c1a-d751152a0269.png width=552/></a>
-</p>
 
 The game was created by me as a warm up exrcise in the _Gaming Lab_ course as part of the _Bezalel Game Development and Design Minor_ of my _Computer Science B.Sc._ in _The Hebrew University, Jerusalem, Israel_.
+
+<br>
+
+The game is available at:
+<p align='center'>
+<a href='https://play.google.com/store/apps/details?id=ereldebel.flappinverse&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' width=110><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+</p>
+<p align='center'>
+  <a href="https://ereldebel.itch.io/FlappInverse"><img src="https://leafo.net/igjc-presentation/itchio-logo.png" width=550/></a>
+</p>
