@@ -98,8 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40b6cc4935dd3b847864b6b28ea5eaba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  black: {fileID: 21300000, guid: fb717029644071d4487154d83ab78531, type: 3}
-  white: {fileID: 21300000, guid: 36c0bf8329a4a674c8f33d3eed3932c7, type: 3}
+  black: {fileID: 21300000, guid: 8fb739e067cda2e4e84947ace853d5aa, type: 3}
+  white: {fileID: 21300000, guid: f377a90c78688a340b9e661d0f283564, type: 3}
   flightDirection: 0
   jumpForce: 10
   immunityOpaqueness: 0.5
