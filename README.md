@@ -8,6 +8,10 @@ The game was created by me as a warm up exrcise in the _Gaming Lab_ course as pa
 
 <br>
 
+Source code can be seen at Assets/Scripts
+
+<br>
+
 The game is available at:
 <p align='center'>
 <a href='https://play.google.com/store/apps/details?id=ereldebel.flappinverse&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' width=110><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
